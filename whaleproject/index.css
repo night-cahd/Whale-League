@@ -1,0 +1,214 @@
+.bodystyle{
+     background-color: rgb(66, 61, 61)
+    
+}
+
+/*Header CSS*/
+head{
+    font: Georgia;
+}
+img{
+    float: left;
+    padding-left: 45px ;
+}
+.divstylehead{
+    border-radius: 1em;
+     margin-right: 5px;
+      border-style: solid;
+       border-width: 5px;
+        border-color: #1157b9;
+         width: 98%; height: 7em;
+          background-color: rgb(18, 92, 202);
+          font: arial;
+    position: sticky;
+    top:0
+}
+header{
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    padding-right: 10em;
+    
+    
+    
+}
+nav li{
+    display: inline-block;
+    margin-right: 50px;
+    padding: 20px 10px;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+nav a:hover{
+    color: grey;
+}
+/* Body CSS & home css*/
+.divstylebody{
+    width: 75em;
+    height: 100em;
+    background-color: rgb(255, 250, 250);
+    margin-top: 1em;
+    margin-left: 20em;
+    margin-right: 10em;
+}
+.mediaheader{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2em;
+    padding-top: 1em;
+
+}
+.mediaiframe{
+    
+    padding-left: 3em;
+}
+.pwhaleleaguebanner{
+    padding-left: 14em;
+}
+.whales1div{
+    width: 45em;
+    height: 20em;
+    background-color: darkgrey;
+    margin-left: 20em;
+}
+/* About Css */
+.divstylebodyabout{
+    width: 75em;
+    height: 35em;
+    background-color: rgb(255, 250, 250);
+    margin-top: 1em;
+    margin-left: 20em;
+    margin-right: 10em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: rgb(18, 92, 202);
+   
+}
+.divstylebodyabout2{
+    width: 75em;
+    height: 35em;
+    background-color: rgba(255, 255, 255, 0.822);
+    margin-top: 1em;
+    margin-left: 20em;
+    margin-right: 10em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: rgb(18, 92, 202);
+}
+.h2about{
+    color: black;
+    font-size: 3em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.pabout{
+    color: cornflowerblue;
+    font-size: 28px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prules{
+    text-align: left;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1em;
+}
+.asignup{
+    text-align: center;
+    font-size: 28px;
+    color: lightblue;
+    text-decoration: none;
+
+}
+p a {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+/* Teams CSS */
+.divteamsol{
+    width: 75em;
+    height: 100em;
+    background-color: rgba(54, 50, 50, 0);
+    margin-top: 1em;
+    margin-left: 20em;
+    margin-right: 10em;
+} 
+.divteamtemp{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 15em 15em;
+    grid-gap: 1em;
+    
+    
+}
+.divteamnest img{
+    float: left;
+    margin-left: 0px;
+    height: 50px;
+    width: 50px;
+    padding-right: 1em;
+    
+}
+.divteamtemp > div{
+    background: rgba(69, 81, 95, 0.87);
+    padding: 1em;
+}
+/*.divteamtemp > div:nth-child(odd){
+    background: #ddd;
+
+} */
+.divteamnest{
+    display: grid;
+    
+    grid-template-rows: 1fr;
+    grid-auto-rows: 8em 7em;
+    
+}
+.divteamnest > div{
+    background:rgb(45, 56, 68);
+}
+.divteamnest p{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(158, 157, 145, 0.425);
+    
+}
+.teamnames{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding-left: 40px;
+}
+/* upcoming CSS */
+.pupcoming{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 3em;
+}
+
+
+/* Footer Css*/
+.footstyle{
+    text-align: center;
+    color: white;
+}
+
+
